@@ -1,0 +1,53 @@
+name: tickers_app
+description: 'A new Flutter project.'
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  auto_route: ^9.2.2
+  bloc: ^8.1.4
+  bloc_concurrency: ^0.2.5
+  connectivity_plus: ^6.0.5
+  dio: ^5.6.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_localizations:
+    sdk: flutter
+  freezed: ^2.5.7
+  freezed_annotation: ^2.4.4
+  get_it: ^7.7.0
+  injectable: ^2.4.4
+  json_annotation: ^4.9.0
+  rxdart: ^0.28.0
+  ui_kit:
+    path: './ui_kit'
+  web_socket_channel: ^3.0.1
+  ws: ^1.0.0
+
+dev_dependencies:
+  auto_route_generator: ^9.0.0
+  bloc_test: ^9.0.0
+  build_runner: ^2.4.12
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+  injectable_generator: ^2.6.2
+  json_serializable: ^6.8.0
+  mocktail: ^0.3.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/

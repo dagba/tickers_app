@@ -1,0 +1,10 @@
+{
+  "appTitle": "tickers_app",
+  "@appTitle": {
+    "description": "Coinmarketcap"
+  },
+  "dashboardScreenTitle": "Markets",
+  "retryCta": "Try again",
+  "onlineStatus": "Has connection",
+  "offlineStatus": "No connection"
+}
