@@ -32,38 +32,47 @@ Setup instructions
 
 Follow these steps to run the app:
 
-1. Install FVM:
+1. Clone the repo:
+   ```
+   git clone https://github.com/dagba/tickers_app.git
+   ```
+
+2. Open project directory
+    ```
+    cd tickers_app
+    ```
+3. Install FVM:
 
     ```
     brew tap leoafarias/fvm
     brew install fvm
     ```
 
-2. Setup flutter:
+4. Setup flutter:
 
     ```bash
     fvm flutter doctor -v
     ```
 
-3. Clean the project:
+5. Clean the project:
 
     ```bash
     fvm flutter clean
     ```
 
-4. Get the project dependencies:
+6. Get the project dependencies:
 
     ```bash
     fvm flutter pub get
     ```
 
-5. Launch the iOS simulator:
+7. Launch the iOS simulator:
 
     ```bash
     fvm flutter emulators --launch apple_ios_simulator
     ```
 
-6. Run the app in debug mode:
+8. Run the app in debug mode:
 
     ```bash
     fvm flutter run --debug -t lib/main_dev.dart --dart-define-from-file=assets/configs/config_dev.json
