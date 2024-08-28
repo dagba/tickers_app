@@ -10,13 +10,16 @@
 - Connectivity listener and websocket connection resoration.
 - Backoff Full Jitter strategy grown exponentially depends on number of retry attempt
 
-## Screenshots
+## Screenshots and demo
+
+### Demo:
+
+![Demo](/assets/screenshots/demo.gif)
+
 
 | Loading state                                         | Loaded state                                           | Error state                                     |
 | ----------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------- |
 | ![Stock List](/assets/screenshots/loading_screen.png) | ![Stock Detail](/assets/screenshots/loaded_screen.png) | ![Wallet](/assets/screenshots/error_screen.png) |
-
-![Demo](/assets/screenshots/demo.gif)
 
 ## Getting Started
 
