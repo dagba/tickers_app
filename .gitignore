@@ -1,7 +1,6 @@
 generated_plugin_registrant.dart
 
 # Visual Studio Code related
-.vscode/
 *.code-workspace
 
 # exclude coverage folder
@@ -94,5 +93,4 @@ src/ios/Runner/GeneratedPluginRegistrant.m
 /.fvm/flutter_sdk
 
 **/pubspec.lock
-/.fvm/
 /packages/webviewx/example/ios/Podfile
