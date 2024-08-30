@@ -56,7 +56,6 @@ xcuserdata
 
 *.moved-aside
 
-*mocks.dart
 *.g.dart
 
 *.pyc

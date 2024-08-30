@@ -4,7 +4,7 @@ import 'package:tickers_app/src/app/app_constants.dart';
 import 'package:tickers_app/src/features/crypto/data/dto/crypto_symbol_dto.dart';
 
 @lazySingleton
-final class FinnhubApiService {
+class FinnhubApiService {
   final Dio _dio;
 
   FinnhubApiService()
